@@ -8,26 +8,26 @@ on:
     branches: [ "main" ]
     
 env:
-  CE_INCL: '${{github.workspace}}/sdk/CURLY-EUREKA-INCL.cmake'
+  CE64_INCL: '${{github.workspace}}/sdk/CURLY-EUREKA-INCL.cmake'
   
 jobs:
   main:
     runs-on: windows-latest
     steps:
     
-    - name: this repo
+    - name: This repo
       uses: actions/checkout@v3
       
-    - name: curly-eureka-64x sdk repo 
+    - name: Repo of curly-eureka-64x
       uses: actions/checkout@v3
       with: 
        repository: 'user95401/curly-eureka-64x'
        path: 'sdk'
        
-    - name: configure cmake
+    - name: Configure cmake
       run: cmake -B build -A x64
       
-    - name: build
+    - name: Build
       run: cmake --build build --config Release
       
     - uses: actions/upload-artifact@v4
