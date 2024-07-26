@@ -21,7 +21,7 @@ jobs:
     - name: Repo of curly-eureka-64x
       uses: actions/checkout@v3
       with: 
-       repository: 'user95401/curly-eureka-64x'
+       repository: 'user95401/curly-eureka-x64'
        path: 'sdk'
        
     - name: Configure cmake
