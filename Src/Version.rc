@@ -8,11 +8,11 @@ FILETYPE 0x2
 	{
 		BLOCK "040904B0"
 		{
-			VALUE "ProductName", "my_mod"
+			VALUE "ProductName", "gd-load-failed-bypass"
 			VALUE "CompanyName", "user95401"
 			VALUE "LegalCopyright", "user666's original"
-			VALUE "FileDescription", "mod made for gd 2.206!!! asd"
-			VALUE "OriginalFilename", "my_mod.dll"
+			VALUE "FileDescription", "Geometry Dash 2.206 .DLL mod that bypasses load failed"
+			VALUE "OriginalFilename", "gd-load-failed-bypass.dll"
 		}
 	}
 

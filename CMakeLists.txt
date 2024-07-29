@@ -4,10 +4,10 @@
 set(GAME_VERSION "2.206")
 include($ENV{CE64_INCL})
 
-project("my_mod")
+project("gd-load-failed-bypass")
 set(developer "user95401")
-set(description "mod made for gd 2.206!!! asd")
-set(lib_output "C:/Geometry Dash v2.206/geode/ryzen/loadit") # post build copy
+set(description "Geometry Dash 2.206 .DLL mod that bypasses load failed")
+set(lib_output "C:\\Users\\user95401\\Desktop\\Matrix GDPS\\mods") # post build copy
 
 #version
 set(FILEVERSION "1, 0, 0, 0")
