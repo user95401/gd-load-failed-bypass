@@ -6,7 +6,7 @@ include($ENV{CE64_INCL})
 
 project("gd-load-failed-bypass")
 set(developer "user95401")
-set(description "Geometry Dash 2.206 .DLL mod that bypasses load failed")
+set(description "geometry dash 2.206 .dll mod that bypasses load failed error")
 set(lib_output "C:\\Users\\user95401\\Desktop\\Matrix GDPS\\mods") # post build copy
 
 #version
